@@ -20,7 +20,7 @@ services:
       - app-network
     environment:
       MONGO_URI: "mongodb://mongo:27017/maDB"
-      ACCES_DATABASE: "mongodb+srv://track_my_call:5ExmKSeKdrhLnDGP@tmc.n55ln8k.mongodb.net/?retryWrites=true&w=majority&appName=tmc"
+      ACCES_DATABASE: ""
 
   mongo:
     image: mongo:latest
