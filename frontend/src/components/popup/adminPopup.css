@@ -1,0 +1,100 @@
+
+.popupAdmin{
+    height: 200px;
+    width: 400px;
+    background: #fff;
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    right: 0;
+    margin: 50px;
+    border-radius: 10px;
+    border: 3px solid #576DB7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    overflow: initial;
+}
+#btnBox{
+    overflow: initial;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.popupAdmin button{
+    height: 40px;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #576DB7;
+    background: #fff;
+    border: 2px solid #576DB7;
+    width: 100%;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+.addGuide div{
+    display: flex;
+    flex-direction: column;
+    color: #95B4FA;
+}
+.addGuide div label{
+    text-transform: uppercase;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 50px;
+    height: 20px;
+}
+.addGuide div input{
+    border: 0px;
+    height: 30px;
+    border-bottom: 1px solid #95B4FA;
+    padding-left: 10px;
+}
+input:focus{
+    outline: none;
+}
+.addGuide div select{
+    border: 1px solid #95B4FA;
+    margin-top: 20px;
+    height: 50px;
+}
+:where(.css-dev-only-do-not-override-nnuwmp).ant-btn-primary {
+    color: #fff;
+    background-color: #576DB7;
+    box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+    border-radius: 0px;
+}
+:where(.css-dev-only-do-not-override-nnuwmp).ant-btn-default {
+    background-color: #ffffff;
+    border-color: #d9d9d9;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 0px;
+}
+.xMark{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    padding: 5px;
+    margin-right: -15px;
+    margin-top: -15px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    background: #576DB7;
+    border-radius: 50%;
+}
+.Plus{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    padding: 5px;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    border-radius: 50%;
+}

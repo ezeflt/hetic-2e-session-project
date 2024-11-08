@@ -1,0 +1,71 @@
+.guideContainer{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-bottom: 100px;
+    scroll-behavior:smooth;
+}
+.guideTitle{
+    height: 60px;
+    width: 400px;
+    background: #455792;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-left: 200px;
+    margin-top: 70px;
+    cursor: pointer;
+    margin-right: 400px;
+}
+#searchBox{
+    height: 50px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+#searchBox input{
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 1.2rem;
+    border: 0;
+    border-bottom: 2px solid #455792;
+}
+#filterBox{
+    position: absolute;
+    width: 500px;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 170px;
+    z-index: 1;
+    margin-left: 200px;
+}
+#filterBox input{
+    visibility: hidden;
+}
+#filterBox label{
+    border: 3px solid #455792;
+    padding: 5px 20px;
+    color: #455792;
+    cursor: pointer;
+}
+#filterBox input:nth-child(1){
+    margin-left: 0px;
+}
+input[type="radio"]:checked + label {
+    background-color: #7c98f5;
+    color: #fff;
+  }

@@ -1,0 +1,15 @@
+.header{
+    background: #fff;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header h1{
+    color: #95B4FB;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #95B4FB;
+    letter-spacing: 1.1px;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}

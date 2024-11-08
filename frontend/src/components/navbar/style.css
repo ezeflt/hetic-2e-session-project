@@ -1,0 +1,51 @@
+.navbar{
+    transition: 0.3s;
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background: #fff;
+    z-index: 400;
+}
+.navbar figure{
+    height: 27px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+.navbar figure img{
+    height: 27px;
+    width: 27px;
+}
+.textNavbar{
+    display: none;
+    margin-left: 10px;
+    color: #576DB7;
+    font-size: 1.2rem;
+    transform: translateX(-200px);
+    font-weight: 500;
+    margin-bottom: 2px;
+    text-decoration: none;
+}
+.div{
+    height: 30px;
+    width: 150px;
+    margin-left: 20px;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    display: none;
+}
+.link{
+    text-decoration: none;
+}

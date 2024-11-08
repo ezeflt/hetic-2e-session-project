@@ -1,0 +1,112 @@
+
+.guideDataBox{
+    height: 50%;
+    width: 500px;
+    position: fixed;
+    right: 100px;
+    top: 250px;
+    border: 3px solid #455792;
+    border-radius: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background: #E9F1FF;
+}
+#a{
+    height: 60px;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border: 3px solid #455792;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #455792;
+    margin-top: 20px;
+}
+#a:hover{
+    background: #455792;
+    color: #fff;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.firstBox{
+    height: 100px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.secondBox{
+    height: 150px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.thirdBox{
+    height: 120px;
+    width: 80%;
+}
+.textBox{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.textBox span:nth-child(2){
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.guideContainer span{
+    color: #455792;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.paragraphetBox{
+    width: 100%;
+}
+.paragraphetBox p{
+    margin-left: 20px;
+    color: #455792;
+    font-weight: 600;
+}
+.thirdBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.child{
+    width: 100%;
+}
+.coursesBox {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: scroll;
+    position: static;
+    max-width: 100vh;
+}
+.Link{
+    height: 40px;
+    padding: 0px 10px;
+    margin-left: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    border: 3px solid #455792;
+}
+.Link:hover{
+    color: #fff;
+}
+.Link span{
+    color: #455792;
+}
